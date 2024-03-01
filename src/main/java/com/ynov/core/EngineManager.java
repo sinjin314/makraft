@@ -10,7 +10,7 @@ import org.lwjgl.glfw.GLFWErrorCallback;
 public class EngineManager {
 
     public static final long NANO_SECOND = 1_000_000_000L;
-    public static final float FRAMERATE = 1_000_000f;
+    public static final float FRAMERATE = 1_000f;
 
     private static int fps;
     private static float frametime = 1.0f / FRAMERATE;
@@ -18,6 +18,7 @@ public class EngineManager {
     private boolean isRunning;
 
     private WindowManager window;
+    private MouseInput mouseInput;
     private GLFWErrorCallback errorCallback;
     private ILogic gameLogic;
 
@@ -25,7 +26,10 @@ public class EngineManager {
         GLFW.glfwSetErrorCallback(errorCallback = GLFWErrorCallback.createPrint(System.err));
         window = Launcher.getWindow();
         gameLogic = Launcher.getGame();
+        mouseInput = new MouseInput();
         window.init();
+        gameLogic.init();
+        mouseInput.init();
     }
 
     public void start() throws Exception {
@@ -70,7 +74,7 @@ public class EngineManager {
             }
 
             if (render) {
-                update();
+                update(frametime);
                 render();
                 frames++;
             }
@@ -86,6 +90,7 @@ public class EngineManager {
     }
 
     private void input() {
+        mouseInput.input();
         gameLogic.input();
     }
 
@@ -94,8 +99,8 @@ public class EngineManager {
         window.update();
     }
 
-    private void update() {
-        gameLogic.update();
+    private void update(float interval) {
+        gameLogic.update(interval, mouseInput);
 
     }
 
