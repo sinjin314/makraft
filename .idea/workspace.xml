@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dae1bc81-542d-43d7-aafb-a5d8fd042876" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/greetings.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/semgrep.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/tomyf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ynov/core/EngineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ynov/core/EngineManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ynov/core/RenderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ynov/core/RenderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ynov/core/WindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ynov/core/WindowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ynov/core/game_launcher/GameLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ynov/core/game_launcher/GameLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ynov/core/game_launcher/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ynov/core/game_launcher/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ynov/core/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ynov/core/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ynov/core/utils/ILogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ynov/core/utils/ILogic.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2cxCyjpl5JSCw62BvybxSsiAd53" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Launcher.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Physics",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tomyf/Downloads/makraft4/makraft",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomyf\Downloads\makraft4\makraft\textures" />
+      <recent name="C:\Users\tomyf\Downloads\makraft4\makraft\src\main\resources\models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ynov.core.game_launcher.Launcher" />
+      <module name="makraft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ynov.core.game_launcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dae1bc81-542d-43d7-aafb-a5d8fd042876" name="Changes" comment="" />
+      <created>1709044098628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709044098628</updated>
+    </task>
+    <servers />
+  </component>
+</project>
